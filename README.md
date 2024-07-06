@@ -6,6 +6,8 @@ O jogo consiste na implementação de um tilemap isométrico simples, carregando
 
 No contexto do jogo desenvolvido, o objetivo é levar Spok, um cãozinho, até sua dona. Porém, você terá que guiar Spok para que ele não caia na lava e nem fique trancado por obstáculos.
 
+![alt text](jogo.png)
+
 # Instruções Para Executar.
 
 O jogo foi desenvolvido em plataforma Windows, utilizando o VSCode como IDE em conjunto com as extensões C/C++ e IntelliSense, executando através do prompt do Visual Studio Build x64
