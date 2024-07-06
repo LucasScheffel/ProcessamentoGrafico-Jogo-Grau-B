@@ -15,3 +15,7 @@ O jogo foi desenvolvido em plataforma Windows, utilizando o VSCode como IDE em c
 3. Mude o diretório atual no prompt para o diretório root do repositório
 4. Inicialize a IDE do VSCode: code .
 5. Na IDE, abra o arquivo main.cpp e execute-o com a extensão C/C++ da Microsoft para o VSCode.
+
+Atenção: Passos Extras que podem ser necessários de acordo com seu ambiente:
+
+-> No arquivo .vscode > c_cpp_properties.json, verifique se o argumento "compilerPath" está correto e existe em seu ambiente.
