@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C/C++: cl.exe build active file",
+            "type": "cppbuild",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "${file}",
+                "${workspaceFolder}/External/GL-UTILS/gl_utils.cpp",
+                "${workspaceFolder}/External/MATHS_FUNCS/maths_funcs.cpp",
+                "${workspaceFolder}/External/STB-IMAGE/stb_image.cpp",
+                "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "/I", "${workspaceFolder}/External",
+                "/I", "${workspaceFolder}/External/GL-UTILS",
+                "/I", "${workspaceFolder}/External/GLEW/include",
+                "/I", "${workspaceFolder}/External/GLFW/include",
+                "/I", "${workspaceFolder}/External/GLM",
+                "/I", "${workspaceFolder}/External/MATHS_FUNCS",
+                "/I", "${workspaceFolder}/External/SOIL2/include",
+                "/I", "${workspaceFolder}/External/STB-IMAGE",
+                "/I", "${workspaceFolder}/includes",
+                "/link",
+                "/LIBPATH:${workspaceFolder}/External/GLFW/lib",
+                "${workspaceFolder}/External/GLEW/lib/x64/glew32.lib",
+                "${workspaceFolder}/External/SOIL2/lib/SOIL.lib",
+                "glfw3_mt.lib",
+                "glfw3dll.lib",
+                "opengl32.lib",
+                "user32.lib",
+                "gdi32.lib",
+                "shell32.lib"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "detail": "Tarefa gerada pela configuração."
+        }
+    ]
+}

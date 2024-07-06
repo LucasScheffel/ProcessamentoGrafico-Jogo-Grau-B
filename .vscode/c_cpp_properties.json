@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/External",
+                "${workspaceFolder}/External/GL-UTILS",
+                "${workspaceFolder}/External/GLEW/include",
+                "${workspaceFolder}/External/GLFW/include",
+                "${workspaceFolder}/External/GLM",
+                "${workspaceFolder}/External/MATHS_FUNCS",
+                "${workspaceFolder}/External/SOIL2/include",
+                "${workspaceFolder}/External/STB-IMAGE",
+                "${workspaceFolder}/includes"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe"
+        }
+    ],
+    "version": 4
+}
